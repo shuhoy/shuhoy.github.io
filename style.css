@@ -5,9 +5,11 @@ date: 2018/07/17
 */
 
 @font-face {
-    font-family: 'Noto Sans JP';
-    src: url('fonts/NotoSansJavanese-unhinted/NotoSansJavanese-Regular.ttf') format('truetype');
-}
+      font-family: 'Noto Sans JP';
+	  src: local("Noto Sans CJK JP Regular"),
+	  url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format('woff'),
+	  url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format('opentype');
+   }
 
 body{
     margin: 0;
@@ -32,7 +34,8 @@ input, button, textarea, select{
 }
 
 html {
-	font-family: sans-serif;
+	/*font-family: sans-serif;*/
+	font-family: "Noto Sans JP"
 }
 /*flex conf.*/
 .flex{
@@ -138,7 +141,11 @@ html {
 
 .insta-color{
 	background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
-  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+	background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+}
+.insta-color:before{
+	background: -webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+	background: radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);/*グラデーション②*/
 }
 .googleplus-color{
 	background-color: #d34836;
@@ -151,7 +158,7 @@ html {
 .sq-button{
 	padding: 10px 15px;
 	margin: 10px;
-	background-color: #757575;
+	background-color: #f57c00;
 	box-shadow:3px 7px 28px -4px #1a2822;
 	border-radius: 3px;
 }
