@@ -8,6 +8,10 @@ date: 2018/07/17
     font-family: 'Noto Sans JP';
     src: url('fonts/NotoSansJavanese-unhinted/NotoSansJavanese-Regular.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Noto Sans JP';
+    src: url('http://fonts.googleapis.com/css?family=Noto+Sans') format('truetype');
+}
 
 body{
     margin: 0;
