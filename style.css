@@ -8,10 +8,6 @@ date: 2018/07/17
     font-family: 'Noto Sans JP';
     src: url('fonts/NotoSansJavanese-unhinted/NotoSansJavanese-Regular.ttf') format('truetype');
 }
-@font-face {
-    font-family: 'Noto Sans JP';
-    src: url('http://fonts.googleapis.com/css?family=Noto+Sans') format('truetype');
-}
 
 body{
     margin: 0;
@@ -36,7 +32,7 @@ input, button, textarea, select{
 }
 
 html {
-	font-family: "Roboto";
+	font-family: sans-serif;
 }
 /*flex conf.*/
 .flex{
@@ -114,7 +110,7 @@ html {
 	border-radius: 50%;
 	height: 170px;
 	width: 170px;
-	filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+	box-shadow:3px 7px 28px -4px #1a2822;
 }
 
 .name-plate h1{
@@ -128,7 +124,7 @@ html {
 	width: 70px;
 	margin: 20px;
 	border-radius: 50%;
-	filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+	box-shadow:3px 7px 28px -4px #1a2822;
 	font-size: 40px;
 }
 
@@ -156,7 +152,8 @@ html {
 	padding: 10px 15px;
 	margin: 10px;
 	background-color: #757575;
-	filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+	box-shadow:3px 7px 28px -4px #1a2822;
+	border-radius: 3px;
 }
 
 
@@ -173,7 +170,7 @@ html {
 		width: 50px;
 		margin: 10px;
 		border-radius: 50%;
-		filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+		box-shadow:3px 7px 28px -4px #1a2822;
 		font-size: 30px;
 	}
 
