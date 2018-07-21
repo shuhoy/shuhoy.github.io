@@ -3,13 +3,14 @@ This is a stylesheet for shuhoy.github.io
 author: ShuhoYoshida
 date: 2018/07/17
 */
-
+/*
 @font-face {
       font-family: 'Noto Sans JP';
 	  src: local("Noto Sans CJK JP Regular"),
 	  url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format('woff'),
 	  url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format('opentype');
    }
+*/
 
 body{
     margin: 0;
@@ -35,7 +36,7 @@ input, button, textarea, select{
 
 html {
 	/*font-family: sans-serif;*/
-	font-family: "Noto Sans JP"
+	font-family: "Noto Sans"
 }
 /*flex conf.*/
 .flex{
@@ -93,6 +94,16 @@ html {
 }
 /*flex conf. END*/
 
+/*margin class*/
+.margin10{
+	margin: 10px;
+}
+.margin15{
+	margin: 15px;
+}
+.margin20{
+	margin: 20px;
+}
 /*char color*/
 .c-white{
 	color: #fff;
@@ -225,4 +236,11 @@ html {
     opacity: 0;
     transform: scale(2.0);
   }
+}
+
+
+.bellowwrap{
+	height:100vh;
+	width:100vw;
+	background-color: rgb(67,99,147);
 }
