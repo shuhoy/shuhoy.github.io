@@ -1,3 +1,4 @@
+<!-- Coded by ShuhoYoshida-->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -10,6 +11,7 @@
 	    <!-- Facebook -->
 	    <meta property="fb:admins" content="100011335499886" />
 	    <meta property="fb:app_id" content="1672734189694585" />
+		<!-- SEO -->
 	    <meta property="og:title" content="ShuhoYoshida mypage" />
 	    <meta property="og:type" content="website" />
 	    <meta property="og:description" content="This is ShuhoYoshida mypage." />
@@ -18,6 +20,7 @@
 	    <meta property="og:locale" content="ja_JP" />
 	    <meta property="og:site_name" content="ShuhoYoshida" />
 	    <link href="https://plus.google.com/" rel="publisher" />
+		<!-- Twitter card -->
 	    <meta content="summary" name="twitter:card" />
 	    <meta content="shuhoyo" name="twitter:site" />
 	    <!-- Icons -->
@@ -26,7 +29,6 @@
 	    <!-- Stylesheet -->
 	    <link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="mousescroll.css">
-		<link rel="stylesheet" href="jquery.pagepiling.css">
 	    <!-- JavaScript -->
 	    <script src="/cdn-cgi/apps/head/EQZCnk4gCeNwUQsZ03sLJaa105M.js"></script>
 	    <!-- Fonts -->
@@ -44,123 +46,140 @@
 
 	</head>
 	<body>
-		<div id="pagepiling">
-			<!-- section1 -->
-			<div class="section top-screen flex direction-column vert-center hori-center" id="section1">
-				<div class="flex direction-column vert-between hori-center">
-					<div class="box flex direction-row hori-center">
-						<div class="profile-img">
-							<img class="" src="lib/snapsheed.jpg" alt="">
-						</div>
-						<div class="flex direction-row vert-center">
-							<div class="name-plate c-white">
-								<h1>Shuho Yoshida</h1>
-							</div>
-						</div>
+		<div class="whole-wrap flex direction-column end-start">
+			<div class="clear-box flex vert-center hori-center">
+				<div class="container">
+					<div class="arrow arrow-left"><i class="fas fa-chevron-circle-left"></i></div>
+					<img src="lib/IMG_6975.jpg" alt="">
+					<img src="lib/IMG_6976.jpg" alt="">
+					<img src="lib/IMG_6974.jpg" alt="">
+					<div class="arrow arrow-right"><i class="fas fa-chevron-circle-right"></i>
 					</div>
-
-					<div class="flex vert-center hori-center" style="position: fixed; bottom:10px; left: 48vw;">
-						<div class="mouse flex vert-center hori-center">
-							<div class="wheel"></div>
-						</div>
+					<div class="dots">
+						<div class="dot"><i class="far fa-dot-circle"></i></div>
+						<div class="dot"><i class="far fa-circle"></i></div>
+						<div class="dot"><i class="far fa-circle"></i></div>
 					</div>
 				</div>
-			</div><!-- end section1 -->
-			<!-- section2 -->
-			<div class="section pp-scrollable bellowwrap" id="section2">
-				<div class="biocontainer flex direction-column">
-					<div class="biobox flex vert-center direction-column">
-						<div class="biograph flex  direction-column c-white">
-							<div class="buttons flex direction-column">
-								<div class="flex direction-raw hori-center">
-									<a href="https://twitter.com/shuhoyo" class="circle-icon c-white twitter-color flex vert-center hori-center ripple">
-										<div class="op-filter flex vert-center hori-center">
-											<i class="fab fa-twitter"></i>
-										</div>
-									</a>
-									<a href="https://www.facebook.com/shuhoyo" class="circle-icon c-white facebook-color flex vert-center hori-center ripple">
-										<div class="op-filter flex vert-center hori-center">
-											<i class="fab fa-facebook-f"></i>
-										</div>
-									</a>
-									<a href="https://www.instagram.com/shuhoyo/" class="circle-icon c-white insta-color flex vert-center hori-center ripple">
-										<div class="op-filter flex vert-center hori-center">
-											<i class="fab fa-instagram"></i>
-										</div>
-									</a>
-									<a href="https://soundcloud.com/shuhoyo" class="circle-icon c-white soundcloud-color flex vert-center hori-center ripple">
-										<div class="op-filter flex vert-center hori-center">
-											<i class="fab fa-soundcloud"></i>
-										</div>
-									</a>
-								</div>
+			</div>
+			<div class="side-nav flex hori-center vert-center">
+				<ul>
+					<li><a href="/about" class="buttonarr">About</a></li>
+					<li><a href="/posts" class="buttonarr">Posts</a></li>
+					<li><a href="https://twitter.com/shuhoyo" class="buttonarr">Twitter</a></li>
+				</ul>
+			</div>
+			<div class="field">
+				<div class="header flex hori-between vert-center">
+					<div class="header-left flex">
+						<!--<div class="arrowwrap">
+							<div class="spinner scroll-down">
+								<a class="animate"></a>
 							</div>
-							<h2>Links</h2>
+						</div>-->
+						<h1>> shuhoYo/</h1>
+					</div>
+					<div class="header-right">
+						<a id="side-nav-button" class="">
+							<div class="horizontal-line one"></div>
+							<div class="horizontal-line two"></div>
+							<div class="horizontal-line thre"></div>
+						</a>
+					</div>
+				</div>
+				<div class="main">
+					<div class="bio-container">
+						<div class="box-top flex">
+							<div class="">
+								<img src="lib/snapsheed.jpg" class="icon-image">
+							</div>
+							<div class="name flex vert-center">
+								<h2>Shuho Yoshida</h2>
+							</div>
+						</div>
+						<div class="box">
+							<h3>Links</h3>
 							<ul>
 								<li>
-									<a href="https://shuhoyo.hatenablog.com/" class="c-white">hatena blog</a>
+									<a href="https://twitter.com/shuhoyo" class="buttonarr">Twitter</a>
 								</li>
 								<li>
-									<a href="https://newspicks.com/user/848394" class="c-white">NewsPicks</a>
+									<a href="https://www.facebook.com/shuhoyo" class="buttonarr">Facebook</a>
 								</li>
 								<li>
-									<a href="https://www.wantedly.com/users/18450029" class="c-white">Wantedly</a>
+									<a href="https://www.instagram.com/shuhoyo/" class="buttonarr">instagram</a>
 								</li>
 								<li>
-									<a href="https://peing.net/ja/shuhoyo" class="c-white">peing-質問箱-</a>
+									<a href="https://soundcloud.com/shuhoyo" class="buttonarr">SoundCloud</a>
+								</li>
+								<li>
+									<a href="https://shuhoyo.hatenablog.com/" class="buttonarr">hatena blog</a><span class="balloon1-left"><p></p></span>
+								</li>
+								<li>
+									<a href="https://newspicks.com/user/848394" class="buttonarr">NewsPicks</a>
+								</li>
+								<li>
+									<a href="https://www.wantedly.com/users/18450029" class="buttonarr">Wantedly</a>
+								</li>
+								<li>
+									<a href="https://peing.net/ja/shuhoyo" class="buttonarr">peing-質問箱-</a>
 								</li>
 							</ul>
-							<h2>Education</h2>
+						</div>
+						<div class="box">
+							<h3>Education</h3>
 							<div class="textbox">
 								<ul>
-									<li>Kawawa High School, Kanagawa, Japan(2012 - 2015)</li>
-									<li>Dept. Mathematics, College of Science, Rikkyo University(2015 - )</li>
+									<li><i class="fas fa-angle-double-right"></i> Kawawa High School, Kanagawa, Japan(2012 - 2015)</li>
+									<li><i class="fas fa-angle-double-right"></i> Dept. Mathematics, College of Science, Rikkyo University(2015 - )</li>
 								</ul>
 								<ul>
-									<li>神奈川県立川和高等学校(2012 - 2015)</li>
-									<li>立教大学理学部数学科(2015 - )</li>
+									<li><i class="fas fa-angle-double-right"></i> 神奈川県立川和高等学校(2012 - 2015)</li>
+									<li><i class="fas fa-angle-double-right"></i> 立教大学理学部数学科(2015 - )</li>
 								</ul>
-							</div>
-							<h2>Awards</h2>
-							<div class="textbox">
-								<ul>
-									<li>NTT DaTa Lifestyle Ideathon×Hackathon - Outstanding Award</li>
-									<li>Tokyo National Museum Ideathon - Special Prize</li>
-								</ul>
-							</div>
-							<h2>Interests</h2>
-							<div class="textbox indent1">
-								<p>Mathematics,  Statistics,  Machine Learning,  Information Geometry,   Algebraic Geometry,</p>
-								<p>Advertising,  Dance(Poppin'),  LoveLive! Sunshine!! Aqours</p>
-							</div>
-							<h2>Skills</h2>
-							<div class="textbox">
-								<ul>
-									<li>Python/R/JavaScript</li>
-									<li>HTML/CSS/TeX</li>
-									<li>Adobe Illustrator/Photoshop</li>
-									<li>WordPress</li>
-									<li>Google Analytics/Search Console</li>
-									<li>Git/GitHub</li>
-									<li>Vim/Atom/MAMP</li>
-								</ul>
-							</div>
-							<div class="flex hori-center" style="margin-bottom:10px;">
-								<p><i class="far fa-copyright"></i>Powered by GitHub.io <i class="fab fa-github"></i></p>
 							</div>
 						</div>
+						<div class="box">
+							<h3>Awards</h3>
+							<div class="textbox">
+								<ul>
+									<li><i class="fas fa-angle-double-right"></i> NTT DaTa Lifestyle Ideathon×Hackathon - Outstanding Award</li>
+									<li><i class="fas fa-angle-double-right"></i> Tokyo National Museum Ideathon - Special Prize</li>
+								</ul>
+							</div>
+						</div>
+						<div class="box">
+							<h3>Skills</h3>
+							<div class="textbox">
+								<ul>
+									<li><i class="fas fa-angle-double-right"></i> Python/R/JavaScript</li>
+									<li><i class="fas fa-angle-double-right"></i> HTML/CSS/TeX</li>
+									<li><i class="fas fa-angle-double-right"></i> Vim/Atom/MAMP</li>
+									<li><i class="fas fa-angle-double-right"></i> Git/GitHub</li>
+									<li><i class="fas fa-angle-double-right"></i> Adobe Illustrator/Photoshop</li>
+									<li><i class="fas fa-angle-double-right"></i> Google Analytics/Search Console</li>
+									<li><i class="fas fa-angle-double-right"></i> WordPress</li>
+								</ul>
+							</div>
+						</div>
+						<div class="box-bottom">
+							<h3>Recent Interests</h3>
+							<div class="textbox indent1">
+								<p>Infomation Technology / Statistics / Machine Learning / Algebraic Geometry / Advertising / Dance(Poppin') / Whiskey / LoveLive! Sunshine!! Aqours</p>
+							</div>
+						</div>
+					</div><!-- bio-container -->
+				</div>
+				<div class="footer">
+					<div class="flex hori-center">
+						<p><i class="far fa-copyright"></i>Shuho Yoshida. Powered by GitHub.io <i class="fab fa-github"></i></p>
 					</div>
 				</div>
-			</div><!-- end section2 -->
-		</div> <!-- /papgepilling -->
-		<!--<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>-->
+			</div><!-- main -->
+			<div class="arrowCta"></div>
+		</div><!-- wrap -->
+		<!-- JS -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="style.js"></script>
-		<script type="text/javascript" src="jquery.pagepiling.js"></script>
-		<script>
-		$(document).ready(function() {
-			$('#pagepiling').pagepiling();
-		});
-		</script>
 	</body>
 </html>

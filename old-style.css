@@ -1,0 +1,310 @@
+/*
+This is a stylesheet for shuhoy.github.io
+author: ShuhoYoshida
+date: 2018/07/17
+*/
+/*
+@font-face {
+      font-family: 'Noto Sans JP';
+	  src: local("Noto Sans CJK JP Regular"),
+	  url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format('woff'),
+	  url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format('opentype');
+   }
+*/
+
+body{
+    margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1, h2, h4, p{
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+input, button, textarea, select{
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+}
+
+html {
+	/*font-family: sans-serif;*/
+	font-family: "Noto Sans"
+}
+/*flex conf.*/
+.flex{
+  /*flex-box要素に指定*/
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+.direction-row{
+    flex-direction: row;
+}
+.direction-column{
+    flex-direction: column;
+}
+.direction-row-reverse{
+    flex-direction: row-reverse;
+}
+.direction-column-reverse{
+    flex-direction: column-reverse;
+}
+.end-start{
+    align-items: flex-end;
+}
+.vert-center{
+  /*垂直方向中央揃え*/
+  align-items: center;
+}
+.vert-between{
+  align-content: space-between;
+}
+.vert-around{
+  align-content: space-around;
+}
+.hori-center{
+  /*水平方向中央揃え*/
+  justify-content: center;
+}
+.hori-left{
+  /*水平方向右詰め*/
+  justify-content: flex-start;
+}
+.hori-right{
+  /*水平方向左詰め*/
+  justify-content: flex-end;
+}
+.hori-between{
+  /*水平方向等間隔, 端詰め*/
+  justify-content: space-between;
+}
+.hori-around{
+  /*水平方向等間隔, 端空け*/
+  justify-content: space-around;
+}
+/*flex conf. END*/
+
+/*margin class*/
+.margin10{
+	margin: 10px;
+}
+.margin15{
+	margin: 15px;
+}
+.margin20{
+	margin: 20px;
+}
+/*char color*/
+.c-white{
+	color: #fff;
+}
+
+/*消す*/
+.wrap{
+    margin: 20px;
+}
+
+.top-screen{
+	background-color: #1976d2;
+	height: 100vh;
+	width: 100vw;
+}
+.top-screen .box{
+}
+
+.profile-img{
+
+}
+.profile-img img{
+	border-radius: 50%;
+	height: 170px;
+	width: 170px;
+	box-shadow:3px 7px 28px -4px #1a2822;
+}
+
+.name-plate h1{
+	margin-left: 20px;
+	font-size: 50px;
+	filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+}
+
+.circle-icon{
+	height: 70px;
+	width: 70px;
+	margin: 20px;
+	border-radius: 50%;
+	box-shadow:3px 7px 28px -4px #1a2822;
+	font-size: 40px;
+}
+/*
+.circle-icon:hover{
+    height: 80px;
+    width:80px;
+    -webkit-transition: all  0.5s ease;
+    -moz-transition: all  0.5s ease;
+    transition: all  0.5s ease;
+}
+*/
+
+.op-filter{
+    height: 100%;
+	width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.op-filter:hover {
+    background-color: rgba(255,255,255,.6);
+    -webkit-transition: all  0.5s ease;
+    -moz-transition: all  0.5s ease;
+    transition: all  0.5s ease;
+}
+
+.twitter-color{
+	background-color: #1dcaff;
+}
+
+.facebook-color{
+	background-color: #3B5998;
+}
+
+.insta-color{
+	background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+	background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+    -webkit-transition: all  0.5s ease;
+	-moz-transition: all  0.5s ease;
+	transition: all  0.5s ease;
+}
+
+
+.googleplus-color{
+	background-color: #d34836;
+}
+
+.soundcloud-color{
+	background-color: #ff8800;
+}
+
+.sq-button{
+	padding: 10px 15px;
+	margin: 10px;
+	background-color: #f57c00;
+	box-shadow:3px 7px 28px -4px #1a2822;
+	border-radius: 3px;
+}
+
+.sq-button:hover {
+	background-color: #fcb164;
+    -webkit-transition: all  0.5s ease;
+	-moz-transition: all  0.5s ease;
+	transition: all  0.5s ease;
+}
+
+
+@media screen and (max-width:736px) {
+	.profile-img img{
+		height: 100px;
+		width: 100px;
+	}
+	.name-plate h1{
+		font-size: 30px;
+	}
+	.circle-icon{
+		height: 50px;
+		width: 50px;
+		margin: 10px;
+		border-radius: 50%;
+		box-shadow:3px 7px 28px -4px #1a2822;
+		font-size: 30px;
+	}
+
+
+}
+
+.anime_move1 {
+	margin: 0 auto;
+	-webkit-animation: anime_move1 5s linear infinite;
+	animation: anime_move1 5s linear infinite;
+}
+@-webkit-keyframes anime_move1 {
+	0% { -webkit-transform: rotateX(0deg) rotate(0deg); }
+	100% { -webkit-transform: rotateX(0deg) rotate(360deg); }
+}
+@keyframes anime_move1 {
+	0% { transform: rotateX(0deg) rotate(0deg); }
+	100% { transform: rotateX(0deg) rotate(360deg); }
+}
+
+.ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple .rp-effect {/*エフェクト*/
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.35;/*波紋の濃さ*/
+  transform: scale(0);
+  background: #FFF;/*波紋色*/
+  animation: ripple 700ms;
+  pointer-events: none;
+}
+
+@-webkit-keyframes ripple {
+  to {
+    opacity: 0;
+    transform: scale(2.0);
+  }
+}
+
+@keyframes ripple {
+  to {
+    opacity: 0;
+    transform: scale(2.0);
+  }
+}
+
+
+#section2{
+    background-color: rgb(32,87,170);
+}
+
+.bellowwrap{
+
+}
+
+.biocontainer{
+
+}
+
+.biobox{
+    margin: 0;
+    padding: 20px;
+}
+
+.biograph{
+
+}
+.biograph ul{
+    list-style-type: square;
+    margin: 10px 0;
+}
+
+.biograph h2{
+    font-size: 20px;
+}
+
+
+.indent1{
+    padding-left: 40px;
+}
