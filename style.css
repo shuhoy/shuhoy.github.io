@@ -14,9 +14,9 @@ date: 2018/07/17
 
 body{
     margin: 0;
-    background: rgb(182,191,196);
-    background: linear-gradient(137deg, rgba(182,191,196,1) 0%, rgba(80,147,179,1) 51%, rgba(8,115,161,1) 100%);
-    background: -webkit-linear-gradient(137deg, rgba(182,191,196,1) 0%, rgba(80,147,179,1) 51%, rgba(8,115,161,1) 100%);
+    background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+    background-image: -webkit-linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
 }
 @media screen and (max-width:736px) {
 	body{
@@ -182,6 +182,7 @@ h3{
 }
 
 .name h2{
+    font-family: "M PLUS Rounded 1c", "Noto Sans";
     font-size: 40px;
     letter-spacing: 0.2em;
     font-weight: normal;
@@ -677,16 +678,12 @@ h3{
 /*carousel*/
 
 .container {
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 60%;
   position: fixed;
   z-index: -1;
-  background: #355C7D;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #e9bcb7;
+  background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
   overflow: hidden;
 }
 @media screen and (max-width:736px) {
