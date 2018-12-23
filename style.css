@@ -358,61 +358,6 @@ h3{
 }
 
 
-.balloon1-left {
- 	position: relative;
-	display: inline-block;
-    padding: 4px 0;
-    left: 30px;
-	min-width: 130px;
- 	max-width: 100%;
- 	color: #555;
-	font-size: 14px;
-	background: #ff9865;
-}
-
-.balloon1-left:before{
-	content: "";
-	position: absolute;
-	top: 50%;
-	left: -30px;
- 	margin-top: -15px;
-	border: 15px solid transparent;
-	border-right: 15px solid #ff9865;
-}
-
-.balloon1-left:after{
-    content: " New Post! 情報幾何学と最大エントロピー原理 ";
-}
-
-@media screen and (max-width:736px) {
-    .balloon1-left {
-     	position: relative;
-    	display: inline-block;
-        left: 30px;
-    	min-width: 80px;
-     	max-width: 100%;
-     	color: #555;
-    	background: #ff9865;
-    }
-
-    .balloon1-left:before{
-    	content: "";
-    	position: absolute;
-    	top: 50%;
-    	left: -15px;
-     	margin-top: -8px;
-    	border: 8px solid transparent;
-    	border-right: 8px solid #ff9865;
-    }
-    .balloon1-left:after{
-        font-size: 9px;
-    }
-}
-
-.balloon1-left p {
-	margin: 0;
-	padding: 0;
-}
 
 /*button arrow */
 .buttonarr {
