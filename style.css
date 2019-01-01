@@ -64,6 +64,7 @@ html {
 
 h3{
     font-family: "Ubuntu";
+    font-size: 22px;
 }
 @media screen and (max-width:736px) {
 	h3{
@@ -182,9 +183,9 @@ h3{
 }
 
 .name h2{
-    font-family: "M PLUS Rounded 1c", "Noto Sans";
+    font-family: "Noto Sans";
     font-size: 40px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     font-weight: normal;
 }
 
