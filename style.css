@@ -210,6 +210,7 @@ h3{
     .name h2{
         font-size: 25px;
         margin-left: 5px;
+        letter-spacing: 0.05em;
     }
 }
 
