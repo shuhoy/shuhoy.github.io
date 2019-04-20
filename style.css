@@ -63,7 +63,7 @@ html {
 }
 
 h3{
-    font-family: "Ubuntu";
+    /*font-family: "Ubuntu";*/
     font-size: 22px;
 }
 @media screen and (max-width:736px) {
@@ -160,6 +160,8 @@ h3{
     width: 90vw;
     background-color: rgb(242,242,242);
     box-shadow:3px 7px 28px -4px #1a2822;
+    margin-top: 10vw;
+    border-top-left-radius: 3px;
 }
 
 .header{
